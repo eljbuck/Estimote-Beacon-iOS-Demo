@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B74E82152C408D6900E23937 /* EstimoteUWB.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B74E82142C408D6900E23937 /* EstimoteUWB.xcframework */; };
+		B74E82162C408D6900E23937 /* EstimoteUWB.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B74E82142C408D6900E23937 /* EstimoteUWB.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B76582632C407B9D0098B549 /* Estimote_Beacon_iOS_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76582622C407B9D0098B549 /* Estimote_Beacon_iOS_DemoApp.swift */; };
+		B76582652C407B9D0098B549 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76582642C407B9D0098B549 /* ContentView.swift */; };
+		B76582672C407B9E0098B549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B76582662C407B9E0098B549 /* Assets.xcassets */; };
+		B765826B2C407B9E0098B549 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B765826A2C407B9E0098B549 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B76582712C407B9F0098B549 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B76582572C407B9D0098B549 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B765825E2C407B9D0098B549;
+			remoteInfo = "Estimote-Beacon-iOS-Demo";
+		};
+		B765827B2C407B9F0098B549 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B76582572C407B9D0098B549 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B765825E2C407B9D0098B549;
+			remoteInfo = "Estimote-Beacon-iOS-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B74E82172C408D6900E23937 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B74E82162C408D6900E23937 /* EstimoteUWB.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B74E82142C408D6900E23937 /* EstimoteUWB.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = EstimoteUWB.xcframework; path = "Estimote-Beacon-iOS-Demo/EstimoteUWB.xcframework"; sourceTree = "<group>"; };
+		B765825F2C407B9D0098B549 /* Estimote-Beacon-iOS-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Estimote-Beacon-iOS-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76582622C407B9D0098B549 /* Estimote_Beacon_iOS_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estimote_Beacon_iOS_DemoApp.swift; sourceTree = "<group>"; };
+		B76582642C407B9D0098B549 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B76582662C407B9E0098B549 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B76582682C407B9E0098B549 /* Estimote_Beacon_iOS_Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Estimote_Beacon_iOS_Demo.entitlements; sourceTree = "<group>"; };
+		B765826A2C407B9E0098B549 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B76582702C407B9F0098B549 /* Estimote-Beacon-iOS-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Estimote-Beacon-iOS-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B765827A2C407B9F0098B549 /* Estimote-Beacon-iOS-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Estimote-Beacon-iOS-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B765825C2C407B9D0098B549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74E82152C408D6900E23937 /* EstimoteUWB.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B765826D2C407B9F0098B549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76582772C407B9F0098B549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B74E820F2C408CA800E23937 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B74E82142C408D6900E23937 /* EstimoteUWB.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B76582562C407B9D0098B549 = {
+			isa = PBXGroup;
+			children = (
+				B76582612C407B9D0098B549 /* Estimote-Beacon-iOS-Demo */,
+				B76582602C407B9D0098B549 /* Products */,
+				B74E820F2C408CA800E23937 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B76582602C407B9D0098B549 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B765825F2C407B9D0098B549 /* Estimote-Beacon-iOS-Demo.app */,
+				B76582702C407B9F0098B549 /* Estimote-Beacon-iOS-DemoTests.xctest */,
+				B765827A2C407B9F0098B549 /* Estimote-Beacon-iOS-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B76582612C407B9D0098B549 /* Estimote-Beacon-iOS-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B76582622C407B9D0098B549 /* Estimote_Beacon_iOS_DemoApp.swift */,
+				B76582642C407B9D0098B549 /* ContentView.swift */,
+				B76582662C407B9E0098B549 /* Assets.xcassets */,
+				B76582682C407B9E0098B549 /* Estimote_Beacon_iOS_Demo.entitlements */,
+				B76582692C407B9E0098B549 /* Preview Content */,
+			);
+			path = "Estimote-Beacon-iOS-Demo";
+			sourceTree = "<group>";
+		};
+		B76582692C407B9E0098B549 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B765826A2C407B9E0098B549 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B765825E2C407B9D0098B549 /* Estimote-Beacon-iOS-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B76582842C407B9F0098B549 /* Build configuration list for PBXNativeTarget "Estimote-Beacon-iOS-Demo" */;
+			buildPhases = (
+				B765825B2C407B9D0098B549 /* Sources */,
+				B765825C2C407B9D0098B549 /* Frameworks */,
+				B765825D2C407B9D0098B549 /* Resources */,
+				B74E82172C408D6900E23937 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Estimote-Beacon-iOS-Demo";
+			productName = "Estimote-Beacon-iOS-Demo";
+			productReference = B765825F2C407B9D0098B549 /* Estimote-Beacon-iOS-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B765826F2C407B9F0098B549 /* Estimote-Beacon-iOS-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B76582872C407B9F0098B549 /* Build configuration list for PBXNativeTarget "Estimote-Beacon-iOS-DemoTests" */;
+			buildPhases = (
+				B765826C2C407B9F0098B549 /* Sources */,
+				B765826D2C407B9F0098B549 /* Frameworks */,
+				B765826E2C407B9F0098B549 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B76582722C407B9F0098B549 /* PBXTargetDependency */,
+			);
+			name = "Estimote-Beacon-iOS-DemoTests";
+			productName = "Estimote-Beacon-iOS-DemoTests";
+			productReference = B76582702C407B9F0098B549 /* Estimote-Beacon-iOS-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B76582792C407B9F0098B549 /* Estimote-Beacon-iOS-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B765828A2C407B9F0098B549 /* Build configuration list for PBXNativeTarget "Estimote-Beacon-iOS-DemoUITests" */;
+			buildPhases = (
+				B76582762C407B9F0098B549 /* Sources */,
+				B76582772C407B9F0098B549 /* Frameworks */,
+				B76582782C407B9F0098B549 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B765827C2C407B9F0098B549 /* PBXTargetDependency */,
+			);
+			name = "Estimote-Beacon-iOS-DemoUITests";
+			productName = "Estimote-Beacon-iOS-DemoUITests";
+			productReference = B765827A2C407B9F0098B549 /* Estimote-Beacon-iOS-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B76582572C407B9D0098B549 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					B765825E2C407B9D0098B549 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					B765826F2C407B9F0098B549 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B765825E2C407B9D0098B549;
+					};
+					B76582792C407B9F0098B549 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B765825E2C407B9D0098B549;
+					};
+				};
+			};
+			buildConfigurationList = B765825A2C407B9D0098B549 /* Build configuration list for PBXProject "Estimote-Beacon-iOS-Demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B76582562C407B9D0098B549;
+			productRefGroup = B76582602C407B9D0098B549 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B765825E2C407B9D0098B549 /* Estimote-Beacon-iOS-Demo */,
+				B765826F2C407B9F0098B549 /* Estimote-Beacon-iOS-DemoTests */,
+				B76582792C407B9F0098B549 /* Estimote-Beacon-iOS-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B765825D2C407B9D0098B549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B765826B2C407B9E0098B549 /* Preview Assets.xcassets in Resources */,
+				B76582672C407B9E0098B549 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B765826E2C407B9F0098B549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76582782C407B9F0098B549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B765825B2C407B9D0098B549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76582652C407B9D0098B549 /* ContentView.swift in Sources */,
+				B76582632C407B9D0098B549 /* Estimote_Beacon_iOS_DemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B765826C2C407B9F0098B549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76582762C407B9F0098B549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B76582722C407B9F0098B549 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B765825E2C407B9D0098B549 /* Estimote-Beacon-iOS-Demo */;
+			targetProxy = B76582712C407B9F0098B549 /* PBXContainerItemProxy */;
+		};
+		B765827C2C407B9F0098B549 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B765825E2C407B9D0098B549 /* Estimote-Beacon-iOS-Demo */;
+			targetProxy = B765827B2C407B9F0098B549 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B76582822C407B9F0098B549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B76582832C407B9F0098B549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B76582852C407B9F0098B549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Estimote-Beacon-iOS-Demo/Estimote_Beacon_iOS_Demo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Estimote-Beacon-iOS-Demo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Estimote-Beacon-iOS-Demo",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ebuck.Estimote-Beacon-iOS-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B76582862C407B9F0098B549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Estimote-Beacon-iOS-Demo/Estimote_Beacon_iOS_Demo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Estimote-Beacon-iOS-Demo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Estimote-Beacon-iOS-Demo",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ebuck.Estimote-Beacon-iOS-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B76582882C407B9F0098B549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ebuck.Estimote-Beacon-iOS-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Estimote-Beacon-iOS-Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Estimote-Beacon-iOS-Demo";
+			};
+			name = Debug;
+		};
+		B76582892C407B9F0098B549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ebuck.Estimote-Beacon-iOS-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Estimote-Beacon-iOS-Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Estimote-Beacon-iOS-Demo";
+			};
+			name = Release;
+		};
+		B765828B2C407B9F0098B549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ebuck.Estimote-Beacon-iOS-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Estimote-Beacon-iOS-Demo";
+			};
+			name = Debug;
+		};
+		B765828C2C407B9F0098B549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ebuck.Estimote-Beacon-iOS-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Estimote-Beacon-iOS-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B765825A2C407B9D0098B549 /* Build configuration list for PBXProject "Estimote-Beacon-iOS-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B76582822C407B9F0098B549 /* Debug */,
+				B76582832C407B9F0098B549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B76582842C407B9F0098B549 /* Build configuration list for PBXNativeTarget "Estimote-Beacon-iOS-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B76582852C407B9F0098B549 /* Debug */,
+				B76582862C407B9F0098B549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B76582872C407B9F0098B549 /* Build configuration list for PBXNativeTarget "Estimote-Beacon-iOS-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B76582882C407B9F0098B549 /* Debug */,
+				B76582892C407B9F0098B549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B765828A2C407B9F0098B549 /* Build configuration list for PBXNativeTarget "Estimote-Beacon-iOS-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B765828B2C407B9F0098B549 /* Debug */,
+				B765828C2C407B9F0098B549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B76582572C407B9D0098B549 /* Project object */;
+}
